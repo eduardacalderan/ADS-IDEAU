@@ -1,7 +1,7 @@
-object Form3: TForm3
+object FormSalario: TFormSalario
   Left = 0
   Top = 0
-  Caption = 'Form3'
+  Caption = 'FormSalario'
   ClientHeight = 201
   ClientWidth = 447
   Color = clBtnFace

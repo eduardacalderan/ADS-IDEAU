@@ -1,7 +1,7 @@
-object Form3: TForm3
+object FormTemperatura: TFormTemperatura
   Left = 0
   Top = 0
-  Caption = 'Form3'
+  Caption = 'FormTemperatura'
   ClientHeight = 201
   ClientWidth = 447
   Color = clBtnFace

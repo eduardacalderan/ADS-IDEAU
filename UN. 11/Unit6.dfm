@@ -1,7 +1,7 @@
-object Form3: TForm3
+object FormPOrN: TFormPOrN
   Left = 0
   Top = 0
-  Caption = 'Form3'
+  Caption = 'FormPOrN'
   ClientHeight = 201
   ClientWidth = 447
   Color = clBtnFace
@@ -16,7 +16,7 @@ object Form3: TForm3
   object Label1: TLabel
     Left = 24
     Top = 88
-    Width = 73
+    Width = 3
     Height = 13
   end
   object Edit1: TEdit

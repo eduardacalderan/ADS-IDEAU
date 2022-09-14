@@ -11,7 +11,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm3 = class(TForm)
+  TFormTemperatura = class(TForm)
     Edit1: TEdit;
     Button1: TButton;
     Label1: TLabel;
@@ -23,13 +23,13 @@ type
   end;
 
 var
-  Form3: TForm3;
+  FormTemperatura: TFormTemperatura;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm3.Button1Click(Sender: TObject);
+procedure TFormTemperatura.Button1Click(Sender: TObject);
 var
   temperaturaEmFahrenheit: double;
   temperaturaEmCelsius: double;

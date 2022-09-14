@@ -1,7 +1,7 @@
-object Form3: TForm3
+object FormMaiorTres: TFormMaiorTres
   Left = 0
   Top = 0
-  Caption = 'Form3'
+  Caption = 'FormMaiorTres'
   ClientHeight = 201
   ClientWidth = 447
   Color = clBtnFace

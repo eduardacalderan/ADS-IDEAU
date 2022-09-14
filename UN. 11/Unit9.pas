@@ -10,7 +10,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm3 = class(TForm)
+  TFormParOrIm = class(TForm)
     Edit1: TEdit;
     Button1: TButton;
     Label1: TLabel;
@@ -22,13 +22,13 @@ type
   end;
 
 var
-  Form3: TForm3;
+  FormParOrIm: TFormParOrIm;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm3.Button1Click(Sender: TObject);
+procedure TFormParOrIm.Button1Click(Sender: TObject);
 var
   value: integer;
 

@@ -11,7 +11,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm3 = class(TForm)
+  TFormMaior = class(TForm)
     Edit1: TEdit;
     Edit2: TEdit;
     Button1: TButton;
@@ -24,13 +24,13 @@ type
   end;
 
 var
-  Form3: TForm3;
+  FormMaior: TFormMaior;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm3.Button1Click(Sender: TObject);
+procedure TFormMaior.Button1Click(Sender: TObject);
 var
   value1: double;
   value2: double;

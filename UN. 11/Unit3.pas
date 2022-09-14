@@ -10,7 +10,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm3 = class(TForm)
+  TFormSalario = class(TForm)
     Edit1: TEdit;
     Edit2: TEdit;
     Label1: TLabel;
@@ -23,13 +23,13 @@ type
   end;
 
 var
-  Form3: TForm3;
+  FormSalario: TFormSalario;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm3.Button1Click(Sender: TObject);
+procedure TFormSalario.Button1Click(Sender: TObject);
   var
     salario: double;
     percentualReajuste: double;
