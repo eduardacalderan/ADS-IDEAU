@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 48
+    Top = 32
+    object Exerccios1: TMenuItem
+      Caption = 'Exerc'#237'cios'
+      object Exerccio21: TMenuItem
+        Caption = 'Exerc'#237'cio 2'
+      end
+      object Exerccio41: TMenuItem
+        Caption = 'Exerc'#237'cio 4'
+      end
+      object Exerccio52: TMenuItem
+        Caption = 'Exerc'#237'cio 5'
+      end
+      object Exerccio61: TMenuItem
+        Caption = 'Exerc'#237'cio 6'
+      end
+      object Exerccio101: TMenuItem
+        Caption = 'Exerc'#237'cio 10'
+      end
+      object Exerccio111: TMenuItem
+        Caption = 'Exerc'#237'cio 11'
+      end
+      object Exerccio121: TMenuItem
+        Caption = 'Exerc'#237'cio 12'
+      end
+      object Exerccio131: TMenuItem
+        Caption = 'Exerc'#237'cio 13'
+      end
+      object Exerccio141: TMenuItem
+        Caption = 'Exerc'#237'cio 14'
+      end
+      object Exerccio161: TMenuItem
+        Caption = 'Exerc'#237'cio 16'
+      end
+    end
+  end
+end

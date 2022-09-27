@@ -1,0 +1,38 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 271
+  ClientWidth = 603
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 80
+    Top = 48
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+        OnClick = Clientes1Click
+      end
+      object Alunos1: TMenuItem
+        Caption = 'Alunos'
+      end
+    end
+    object Relatrios1: TMenuItem
+      Caption = 'Relat'#243'rios'
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+        OnClick = Sair1Click
+      end
+    end
+  end
+end

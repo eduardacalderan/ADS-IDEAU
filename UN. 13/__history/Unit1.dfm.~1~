@@ -1,0 +1,118 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ActiveControl = DBGrid1
+  Caption = 'Form1'
+  ClientHeight = 443
+  ClientWidth = 758
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 0
+    Width = 758
+    Height = 402
+    Align = alClient
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 402
+    Width = 758
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    ExplicitTop = 408
+    object Button1: TButton
+      Left = 8
+      Top = 7
+      Width = 89
+      Height = 25
+      Caption = 'Novo'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 103
+      Top = 7
+      Width = 89
+      Height = 25
+      Caption = 'Gravar'
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 198
+      Top = 7
+      Width = 89
+      Height = 25
+      Caption = 'Cancelar'
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Left = 292
+      Top = 7
+      Width = 89
+      Height = 25
+      Caption = 'Excluir'
+      TabOrder = 3
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      Left = 532
+      Top = 7
+      Width = 50
+      Height = 25
+      Caption = '|<'
+      TabOrder = 4
+      OnClick = Button5Click
+    end
+    object Button6: TButton
+      Left = 588
+      Top = 7
+      Width = 50
+      Height = 25
+      Caption = '<<'
+      TabOrder = 5
+      OnClick = Button6Click
+    end
+    object Button7: TButton
+      Left = 644
+      Top = 7
+      Width = 50
+      Height = 25
+      Caption = '>>'
+      TabOrder = 6
+      OnClick = Button7Click
+    end
+    object Button8: TButton
+      Left = 700
+      Top = 7
+      Width = 50
+      Height = 25
+      Caption = '>|'
+      TabOrder = 7
+      OnClick = Button8Click
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = DataModule2.ClientDataSet1
+    Left = 664
+    Top = 32
+  end
+end

@@ -1,0 +1,105 @@
+object DataModule3: TDataModule3
+  OldCreateOrder = False
+  Height = 222
+  Width = 345
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Password=11051109'
+      'Server=localhost'
+      'Database=teste'
+      'DriverID=MySQL')
+    Connected = True
+    Left = 32
+    Top = 16
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    TableName = 'teste.`user`'
+    Left = 112
+    Top = 16
+    object FDTable1email: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'email'
+      Origin = 'email'
+      Size = 255
+    end
+    object FDTable1username: TStringField
+      FieldName = 'username'
+      Origin = 'username'
+      Required = True
+      Size = 16
+    end
+    object FDTable1password: TStringField
+      FieldName = 'password'
+      Origin = '`password`'
+      Required = True
+      Size = 32
+    end
+    object FDTable1create_time: TSQLTimeStampField
+      AutoGenerateValue = arDefault
+      FieldName = 'create_time'
+      Origin = 'create_time'
+    end
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from teste.user')
+    Left = 192
+    Top = 16
+    object FDQuery1username: TStringField
+      FieldName = 'username'
+      Origin = 'username'
+      Required = True
+      Size = 16
+    end
+    object FDQuery1email: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'email'
+      Origin = 'email'
+      Size = 255
+    end
+    object FDQuery1password: TStringField
+      FieldName = 'password'
+      Origin = '`password`'
+      Required = True
+      Size = 32
+    end
+    object FDQuery1create_time: TSQLTimeStampField
+      AutoGenerateValue = arDefault
+      FieldName = 'create_time'
+      Origin = 'create_time'
+    end
+  end
+  object DataSetProvider1: TDataSetProvider
+    DataSet = FDTable1
+    Left = 280
+    Top = 16
+  end
+  object ClientDataSet1: TClientDataSet
+    Active = True
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'DataSetProvider1'
+    Left = 32
+    Top = 80
+    object ClientDataSet1email: TStringField
+      FieldName = 'email'
+      Size = 255
+    end
+    object ClientDataSet1username: TStringField
+      FieldName = 'username'
+      Required = True
+      Size = 16
+    end
+    object ClientDataSet1password: TStringField
+      FieldName = 'password'
+      Required = True
+      Size = 32
+    end
+    object ClientDataSet1create_time: TSQLTimeStampField
+      FieldName = 'create_time'
+    end
+  end
+end
