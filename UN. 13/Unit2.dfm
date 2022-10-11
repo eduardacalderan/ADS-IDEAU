@@ -27,7 +27,7 @@ object DataModuleExercicio1: TDataModuleExercicio1
     Aggregates = <>
     Params = <>
     ProviderName = 'DataSetProvider1'
-    Left = 360
+    Left = 368
     Top = 40
     object ClientDataSet1id: TAutoIncField
       FieldName = 'id'

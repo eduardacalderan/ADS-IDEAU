@@ -1,0 +1,57 @@
+﻿object dtmCadastro: TdtmCadastro
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 392
+  Width = 502
+  object fdqCadastro: TFDQuery
+    Connection = dtmConexao.FDConnection
+    Left = 96
+    Top = 72
+  end
+  object dspCadastro: TDataSetProvider
+    DataSet = fdqCadastro
+    Left = 96
+    Top = 128
+  end
+  object cdsCadastro: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspCadastro'
+    AfterPost = cdsCadastroAfterPost
+    AfterDelete = cdsCadastroAfterDelete
+    OnReconcileError = cdsCadastroReconcileError
+    Left = 96
+    Top = 184
+    object cdsCadastroidCliente: TAutoIncField
+      FieldName = 'idCliente'
+      ReadOnly = True
+    end
+    object cdsCadastronome: TStringField
+      FieldName = 'nome'
+      Required = True
+      Size = 30
+    end
+    object cdsCadastrocpf: TStringField
+      FieldName = 'cpf'
+      Required = True
+      Size = 9
+    end
+    object cdsCadastrotelefone: TIntegerField
+      FieldName = 'telefone'
+    end
+    object cdsCadastroendereço: TStringField
+      FieldName = 'endere'#231'o'
+      Size = 50
+    end
+    object cdsCadastroidOrdem: TIntegerField
+      FieldName = 'idOrdem'
+    end
+  end
+  object fdqConsulta: TFDQuery
+    Connection = dtmConexao.FDConnection
+    SQL.Strings = (
+      '')
+    Left = 224
+    Top = 72
+  end
+end

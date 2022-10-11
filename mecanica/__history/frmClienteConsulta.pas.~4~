@@ -1,0 +1,27 @@
+unit frmClienteConsulta;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frmConsulta, Data.DB, Vcl.StdCtrls,
+  Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TformConsulta2 = class(TformConsulta)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formConsulta2: TformConsulta2;
+
+implementation
+
+{$R *.dfm}
+
+uses dmCliente;
+
+end.

@@ -1,0 +1,13 @@
+inherited dtmCadastro2: TdtmCadastro2
+  OldCreateOrder = True
+  inherited fdqCadastro: TFDQuery
+    SQL.Strings = (
+      'select * from cliente')
+  end
+  inherited fdqConsulta: TFDQuery
+    SQL.Strings = (
+      'select * '
+      'from cliente'
+      '')
+  end
+end

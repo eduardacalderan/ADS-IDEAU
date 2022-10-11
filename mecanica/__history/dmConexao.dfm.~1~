@@ -1,0 +1,17 @@
+object dtmConexao: TdtmConexao
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 300
+  Width = 367
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Database=exercicio1'
+      'User_Name=root'
+      'Password=root'
+      'Server=localhost'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 72
+    Top = 56
+  end
+end

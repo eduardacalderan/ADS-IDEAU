@@ -1,0 +1,76 @@
+inherited formCadastro2: TformCadastro2
+  Caption = 'formCadastro2'
+  ClientHeight = 356
+  ClientWidth = 756
+  ExplicitWidth = 772
+  ExplicitHeight = 395
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel1: TPanel
+    Width = 756
+    Height = 272
+    ExplicitTop = -6
+    ExplicitWidth = 756
+    ExplicitHeight = 272
+  end
+  inherited Panel2: TPanel
+    Top = 272
+    Width = 756
+    Height = 84
+    ExplicitLeft = -48
+    ExplicitTop = 278
+    ExplicitWidth = 810
+    ExplicitHeight = 84
+    inherited btnNovo: TButton
+      Left = 24
+      Top = 30
+      Width = 57
+      ExplicitLeft = 24
+      ExplicitTop = 30
+      ExplicitWidth = 57
+    end
+    inherited btnGravar: TButton
+      Left = 87
+      Top = 30
+      Width = 66
+      ExplicitLeft = 87
+      ExplicitTop = 30
+      ExplicitWidth = 66
+    end
+    inherited btnExcluir: TButton
+      Left = 159
+      Top = 30
+      Width = 67
+      ExplicitLeft = 159
+      ExplicitTop = 30
+      ExplicitWidth = 67
+    end
+    inherited btnCancelar: TButton
+      Left = 232
+      Top = 30
+      Width = 76
+      ExplicitLeft = 232
+      ExplicitTop = 30
+      ExplicitWidth = 76
+    end
+    inherited btnFechar: TButton
+      Left = 413
+      Top = 29
+      ExplicitLeft = 413
+      ExplicitTop = 29
+    end
+    inherited btnConsulta: TButton
+      Left = 314
+      Top = 29
+      Width = 85
+      ExplicitLeft = 314
+      ExplicitTop = 29
+      ExplicitWidth = 85
+    end
+  end
+  inherited dsCadastro: TDataSource
+    DataSet = dtmCadastro2.cdsCadastro
+    Left = 696
+    Top = 216
+  end
+end

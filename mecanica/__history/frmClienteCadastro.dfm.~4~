@@ -1,0 +1,8 @@
+inherited formCadastro2: TformCadastro2
+  Caption = 'formCadastro2'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited dsCadastro: TDataSource
+    DataSet = dtmCadastro2.cdsCadastro
+  end
+end

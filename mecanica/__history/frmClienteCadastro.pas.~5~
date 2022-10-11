@@ -1,0 +1,36 @@
+unit frmClienteCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frmCadastro, Data.DB, Vcl.StdCtrls,
+  Vcl.ExtCtrls;
+
+type
+  TformCadastro2 = class(TformCadastro)
+    procedure btnCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formCadastro2: TformCadastro2;
+
+implementation
+
+{$R *.dfm}
+
+uses dmCliente, frmClienteConsulta;
+
+
+
+procedure TformCadastro2.btnCancelarClick(Sender: TObject);
+begin
+  inherited;
+  dtmCadastro2.Cancelar;
+end;
+
+end.
