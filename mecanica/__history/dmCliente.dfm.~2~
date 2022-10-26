@@ -1,6 +1,0 @@
-inherited dtmCadastro2: TdtmCadastro2
-  inherited fdqConsulta: TFDQuery
-    SQL.Strings = (
-      'select * from mecanica.cliente')
-  end
-end

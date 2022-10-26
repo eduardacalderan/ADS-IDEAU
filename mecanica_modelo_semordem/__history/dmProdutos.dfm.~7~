@@ -1,0 +1,17 @@
+inherited dtmProdutos: TdtmProdutos
+  OldCreateOrder = True
+  inherited fdqCadastro: TFDQuery
+    SQL.Strings = (
+      'select * from produtos')
+  end
+  inherited cdsCadastro: TClientDataSet
+    StoreDefs = True
+  end
+  inherited fdqConsulta: TFDQuery
+    SQL.Strings = (
+      'select * '
+      'from produtos'
+      'order by nome'
+      '')
+  end
+end

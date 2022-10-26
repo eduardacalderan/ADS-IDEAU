@@ -1,0 +1,49 @@
+inherited dtmProdutos: TdtmProdutos
+  OldCreateOrder = True
+  inherited fdqCadastro: TFDQuery
+    SQL.Strings = (
+      'select * from produtos')
+  end
+  inherited cdsCadastro: TClientDataSet
+    FieldDefs = <
+      item
+        Name = 'idProdutos'
+        Attributes = [faRequired]
+        DataType = ftInteger
+      end
+      item
+        Name = 'nome'
+        Attributes = [faRequired]
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'valor'
+        DataType = ftBCD
+        Precision = 15
+        Size = 2
+      end>
+    StoreDefs = True
+    object cdsCadastroidProdutos: TAutoIncField
+      FieldName = 'idProdutos'
+      ReadOnly = True
+    end
+    object cdsCadastronome: TStringField
+      FieldName = 'nome'
+      Required = True
+      Size = 100
+    end
+    object cdsCadastrovalor: TBCDField
+      FieldName = 'valor'
+      Precision = 15
+      Size = 2
+    end
+  end
+  inherited fdqConsulta: TFDQuery
+    SQL.Strings = (
+      'select * '
+      'from produtos'
+      'order by nome'
+      '')
+  end
+end

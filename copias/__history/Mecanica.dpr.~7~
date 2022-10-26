@@ -1,0 +1,24 @@
+program Mecanica;
+
+uses
+  Vcl.Forms,
+  Menu in 'Menu.pas' {FrmMenu},
+  dmCadastro in 'dmCadastro.pas' {dtmCadastro: TDataModule},
+  dmConexao in 'dmConexao.pas' {dtmConexao: TDataModule},
+  frmCadastro in 'frmCadastro.pas' {formCadastro},
+  frmConsulta in 'frmConsulta.pas' {formConsulta},
+  mensagens in 'mensagens.pas',
+  dmCliente in 'dmCliente.pas' {dtmClientes: TDataModule},
+  frmClienteCadastro in 'frmClienteCadastro.pas' {formCadastro2},
+  frmClienteConsulta in 'frmClienteConsulta.pas' {formConsulta2},
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TdtmConexao, dtmConexao);
+  Application.CreateForm(TFrmMenu, FrmMenu);
+  Application.CreateForm(TdtmProdutos, dtmProdutos);
+  Application.Run;
+end.

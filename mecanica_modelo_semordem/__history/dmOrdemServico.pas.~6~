@@ -1,0 +1,45 @@
+unit dmOrdemServico;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, dmCadastro, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  Datasnap.DBClient, Datasnap.Provider, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TdtmClientes = class(TdtmCadastro)
+
+    procedure DataModuleCreate(Sender: TObject);
+    procedure cdsCadastroNewRecord(DataSet: TDataSet);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dtmOrdemServico: TdtmOrdemServico;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+uses dmConexao;
+
+{$R *.dfm}
+
+procedure TdtmClientes.cdsCadastroNewRecord(DataSet: TDataSet);
+begin
+  inherited;
+//  cdsCadastroid.AsInteger := dtmConexao.getProxId('clientes', 'id');
+end;
+
+procedure TdtmClientes.DataModuleCreate(Sender: TObject);
+begin
+  inherited;
+//  fdqCidades.Close;
+//  fdqCidades.Open;
+end;
+
+end.
