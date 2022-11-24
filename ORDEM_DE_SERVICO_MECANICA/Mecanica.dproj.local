@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/10 14:58:50.000.756,=C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/10/10 20:22:25.000.827,=C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/10/10 20:24:02.000.203,C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit1.pas</Transaction>
+    <Transaction>2022/10/10 20:24:02.000.203,C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit1.dfm</Transaction>
+    <Transaction>2022/10/10 20:26:41.000.094,=C:\Users\eduar\Downloads\M\M\Menu.pas</Transaction>
+    <Transaction>2022/10/10 20:26:59.000.188,C:\Users\eduar\Downloads\M\M\Menu.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Menu.dfm</Transaction>
+    <Transaction>2022/10/10 20:26:59.000.188,C:\Users\eduar\Downloads\M\M\Menu.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Menu.pas</Transaction>
+    <Transaction>2022/10/10 20:27:17.000.763,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit1.pas=</Transaction>
+    <Transaction>2022/10/10 20:28:18.000.190,=C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmCadastro.pas</Transaction>
+    <Transaction>2022/10/10 20:28:44.000.862,=C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmCadastro.pas</Transaction>
+    <Transaction>2022/10/10 20:28:44.000.596,=C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmConexao.pas</Transaction>
+    <Transaction>2022/10/10 20:29:08.000.300,=C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmConsulta.pas</Transaction>
+    <Transaction>2022/10/10 20:29:26.000.456,=C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\mensagens.pas</Transaction>
+    <Transaction>2022/10/10 20:30:12.000.659,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmCadastro.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmCadastro.pas</Transaction>
+    <Transaction>2022/10/10 20:30:12.000.659,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmCadastro.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmCadastro.dfm</Transaction>
+    <Transaction>2022/10/10 20:30:24.000.753,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmConexao.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmConexao.pas</Transaction>
+    <Transaction>2022/10/10 20:30:24.000.753,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\dmConexao.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmConexao.dfm</Transaction>
+    <Transaction>2022/10/10 20:30:31.000.112,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmCadastro.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmCadastro.pas</Transaction>
+    <Transaction>2022/10/10 20:30:31.000.112,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmCadastro.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmCadastro.dfm</Transaction>
+    <Transaction>2022/10/10 20:30:37.000.409,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmConsulta.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmConsulta.pas</Transaction>
+    <Transaction>2022/10/10 20:30:37.000.409,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\frmConsulta.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmConsulta.dfm</Transaction>
+    <Transaction>2022/10/10 20:30:46.000.268,C:\Users\eduar\Downloads\UN14 - cadastro - resolução\UN14 - cadastro - resolução\mensagens.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\mensagens.pas</Transaction>
+    <Transaction>2022/10/10 20:34:29.000.953,=C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/10/10 20:35:35.000.969,C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\FormCliente.pas</Transaction>
+    <Transaction>2022/10/10 20:35:35.000.969,C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\FormCliente.dfm</Transaction>
+    <Transaction>2022/10/10 20:35:52.000.158,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\FormCliente.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmCliente.dfm</Transaction>
+    <Transaction>2022/10/10 20:35:52.000.158,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\FormCliente.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmCliente.pas</Transaction>
+    <Transaction>2022/10/10 21:00:23.000.196,C:\Users\eduar\OneDrive\Documentos\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Mecanica.dproj</Transaction>
+    <Transaction>2022/10/10 21:01:14.000.586,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas</Transaction>
+    <Transaction>2022/10/10 21:02:28.000.961,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmCliente.pas</Transaction>
+    <Transaction>2022/10/10 21:02:28.000.961,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\dmCliente.dfm</Transaction>
+    <Transaction>2022/10/10 21:02:49.000.524,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas</Transaction>
+    <Transaction>2022/10/10 21:03:43.000.011,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmClienteCadastro.pas</Transaction>
+    <Transaction>2022/10/10 21:03:43.000.011,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmClienteCadastro.dfm</Transaction>
+    <Transaction>2022/10/10 21:04:17.000.464,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas</Transaction>
+    <Transaction>2022/10/10 21:04:36.000.042,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.dfm=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmClienteConsulta.dfm</Transaction>
+    <Transaction>2022/10/10 21:04:36.000.042,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\Unit2.pas=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmClienteConsulta.pas</Transaction>
+    <Transaction>2022/10/11 15:03:32.000.764,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\frmCliente.pas=</Transaction>
+    <Transaction>2022/10/11 15:11:43.000.267,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\conexao.ini</Transaction>
+    <Transaction>2022/10/11 15:12:10.000.572,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica\conexao.ini=</Transaction>
+    <Transaction>2022/10/20 20:33:29.000.267,=C:\Users\eduar\Downloads\Prod\Prod\dmProduto.pas</Transaction>
+    <Transaction>2022/10/20 20:33:48.000.212,C:\Users\eduar\Downloads\Prod\Prod\dmProduto.pas=C:\Users\eduar\Downloads\k\mecanica_modelo\dmProduto.pas</Transaction>
+    <Transaction>2022/10/20 20:33:48.000.212,C:\Users\eduar\Downloads\Prod\Prod\dmProduto.dfm=C:\Users\eduar\Downloads\k\mecanica_modelo\dmProduto.dfm</Transaction>
+    <Transaction>2022/10/23 01:05:35.000.912,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmFuncionarios.pas</Transaction>
+    <Transaction>2022/10/23 01:05:36.000.083,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmProdutos.pas</Transaction>
+    <Transaction>2022/10/23 01:05:50.000.505,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmProdutosCadastro.pas</Transaction>
+    <Transaction>2022/10/23 01:05:50.000.755,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmProdutosConsulta.pas</Transaction>
+    <Transaction>2022/10/23 01:05:50.000.130,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmFuncionariosCadastro.pas</Transaction>
+    <Transaction>2022/10/23 01:05:50.000.365,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmFuncionariosConsulta.pas</Transaction>
+    <Transaction>2022/10/31 19:50:14.000.219,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\Unit2.pas</Transaction>
+    <Transaction>2022/10/31 19:51:11.000.819,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmOrdemServico.pas</Transaction>
+    <Transaction>2022/10/31 19:51:43.000.017,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmOrdemServico.pas=</Transaction>
+    <Transaction>2022/10/31 19:52:01.000.922,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmOrdemServico.pas</Transaction>
+    <Transaction>2022/10/31 19:52:09.000.544,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmOrdemServico.pas=</Transaction>
+    <Transaction>2022/10/31 20:20:37.000.936,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmCadastroDetalhe.pas</Transaction>
+    <Transaction>2022/10/31 20:20:52.000.483,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\dmOrdemServico.pas</Transaction>
+    <Transaction>2022/10/31 20:49:20.000.155,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmOrdemServicoCadastro.pas</Transaction>
+    <Transaction>2022/10/31 20:51:51.000.708,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmCadastroDetalhe.pas</Transaction>
+    <Transaction>2022/10/31 20:56:00.000.976,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmOrdemServicoConsulta.pas</Transaction>
+    <Transaction>2022/10/31 21:00:10.000.744,C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmOrdemServicoCadastro.pas=</Transaction>
+    <Transaction>2022/10/31 21:00:26.000.027,=C:\Users\eduar\OneDrive\Área de Trabalho\EDUARDA IDEAU\DELPHI\mecanica_modelo\frmOrdemServicoCadastro.pas</Transaction>
+  </Transactions>
+</BorlandProject>

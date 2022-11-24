@@ -1,0 +1,81 @@
+unit frmOrdemServicoCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frmCadastroDetalhe, Data.DB, Vcl.StdCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls,
+  Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TformNotasFiscaisCadastro = class(TformCadastroDetalhe)
+    Label1: TLabel;
+    DBEdit1: TDBEdit;
+    Label2: TLabel;
+    DBEdit2: TDBEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    DBEdit4: TDBEdit;
+    DBLookupComboBox1: TDBLookupComboBox;
+    procedure btnNovoClick(Sender: TObject);
+    procedure btnGravarClick(Sender: TObject);
+    procedure btnExcluirClick(Sender: TObject);
+    procedure btnCancelarClick(Sender: TObject);
+    procedure btnConsultaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formNotasFiscaisCadastro: TformNotasFiscaisCadastro;
+
+implementation
+
+{$R *.dfm}
+
+uses dmOrdemServico, frmOrdemServicoConsulta;
+
+procedure TformNotasFiscaisCadastro.btnCancelarClick(Sender: TObject);
+begin
+  inherited;
+  dtmOrdemServico.Cancelar;
+end;
+
+procedure TformNotasFiscaisCadastro.btnConsultaClick(Sender: TObject);
+begin
+  inherited;
+  formOrdemServicoConsulta := TformOrdemServicoConsulta.Create(self);
+  try
+    dtmOrdemServico.fdqConsulta.Close;
+    dtmOrdemServico.fdqConsulta.Open;
+    if formOrdemServicoConsulta.ShowModal = mrOk then
+    begin
+      dtmOrdemServico.cdsCadastro.Refresh;
+      dtmOrdemServico.cdsCadastro.Locate('idOs', dtmOrdemServico.fdqConsultaid.AsInteger, []);
+    end;
+  finally
+    FreeAndNil(formNotasFiscaisConsulta);
+  end;
+end;
+
+procedure TformNotasFiscaisCadastro.btnExcluirClick(Sender: TObject);
+begin
+  inherited;
+  dtmOrdemServico.Excluir;
+end;
+
+procedure TformNotasFiscaisCadastro.btnGravarClick(Sender: TObject);
+begin
+  inherited;
+  dtmOrdemServico.Gravar;
+end;
+
+procedure TformNotasFiscaisCadastro.btnNovoClick(Sender: TObject);
+begin
+  inherited;
+  dtmOrdemServico.Novo;
+end;
+
+end.
